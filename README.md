@@ -12,6 +12,13 @@ The iteration is a functional graph — each number has exactly one successor �
 
 **Complexity:** effectively O(1) per the bounded range; O(1) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
